@@ -2,7 +2,7 @@
 ''' split large csv file into small ones
 * how to use
 -- in terminal, run the script with terminal arguments as follows:
-    $python sharding.py -name TARGET_FILE -size SHARD_SIZE
+    $python split_large_csv.py -name TARGET_FILE -size SHARD_SIZE
 -- TARGET_FILE is the name of the file you want to split
 -- SHARD_SIZE is number of lines in each small file
 
